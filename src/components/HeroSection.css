@@ -1,0 +1,28 @@
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  border: 1px solid gray;
+}
+
+.hero-para {
+  margin-top: 25px;
+}
+
+.hero-buttons button{
+  margin-right: 20px;
+  border: 2px solid gray;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-image img {
+  margin: 20px;
+  height: 150%;
+  width: 80%;
+  border-radius: 10px;
+}

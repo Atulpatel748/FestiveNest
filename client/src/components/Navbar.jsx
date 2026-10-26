@@ -18,10 +18,10 @@ export default function Navbar() {
         <div className="navbar-actions">
           <div className="search-box">
             <i className="bi bi-search"></i>
-            <input 
-              class="form-control me-2" 
-              type="search" 
-              placeholder="Search products" 
+            <input
+              className="form-control me-2"
+              type="search"
+              placeholder="Search products"
               aria-label="Search products"
             />
           </div>

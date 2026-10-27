@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "ejs": "^7.0.2",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.3",
+    "mongosh": "^2.13.0"
+  },
+  "allowScripts": {
+    "kerberos@7.0.0": true,
+    "mongodb-client-encryption@7.2.0": true,
+    "ssh2@1.17.0": true
+  }
+}

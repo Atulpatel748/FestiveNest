@@ -1,3 +1,7 @@
 node_modules
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.env
 .claude
 README.md

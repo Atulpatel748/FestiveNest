@@ -1,0 +1,62 @@
+.allCategory {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 12px;
+    border: 2px solid #d6d6d6;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.sectionOne,
+.sectionTwo,
+.sectionThree,
+.sectionFour {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 8px;
+    padding: 5px 10px;
+    min-width: 0;
+}
+
+.sectionTwo,
+.sectionThree,
+.sectionFour {
+    border-left: 2px solid #e5e5e5;
+}
+
+.allCategory .badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    padding: 0;
+    background-color: #f0f0f0 !important;
+    color: #555;
+    border: 1px solid #dedede;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.allCategory h4 {
+    margin: 0 0 4px;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.allCategory p {
+    margin: 0;
+    color: #777;
+    font-size: 12px;
+}
+
+.sectionText {
+    display: flex;
+    flex-direction: column;
+}

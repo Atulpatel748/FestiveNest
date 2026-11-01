@@ -1,0 +1,94 @@
+
+.category-section {
+  margin-top: 38px;
+  padding: 5px 0;
+}
+
+.category-heading {
+  margin-bottom: 18px;
+}
+
+.category-eyebrow {
+  margin-bottom: 8px;
+  color: #777;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.category-heading h2 {
+  margin-bottom: 6px;
+  color: #262626;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.category-heading > p:last-child {
+  margin-bottom: 0;
+  color: #777;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.category-card {
+  height: 100%;
+  padding: 8px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgb(0 0 0 / 6%);
+}
+
+.category-image {
+  height: 145px;
+  overflow: hidden;
+  background: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  border-radius: 7px;
+}
+
+.category-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover .category-image img {
+  transform: scale(1.04);
+}
+
+.category-info {
+  padding: 12px 3px 5px;
+}
+
+.category-info h3 {
+  margin-bottom: 6px;
+  color: #262626;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.category-info p {
+  margin-bottom: 9px;
+  color: #777;
+  font-size: 10px;
+}
+
+.category-info a {
+  color: #262626;
+  font-size: 10px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.category-info a:hover {
+  text-decoration: underline;
+}

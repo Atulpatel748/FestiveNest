@@ -5,7 +5,7 @@ export default function HeroSection() {
     <section className="hero-section">
       <div className="hero-content">
         <p className="hero-para">
-          THE FESTIVE EDIT
+          THE FESTIVE EDIT   
         </p>
 
         <h1>
